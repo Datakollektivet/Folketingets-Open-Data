@@ -1,0 +1,37 @@
+{
+  "name": "ft-oda-app",
+  "version": "1.0.0",
+  "description": "Desktop tool for browsing and wrangling open data from the Danish parliment",
+  "main": "ft-oda-app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Datakollektivet/Folketingets-Open-Data.git"
+  },
+  "keywords": [
+    "open",
+    "data",
+    "wrangling",
+    "data",
+    "science",
+    "data",
+    "exploration",
+    "politics"
+  ],
+  "author": "Datakollektivet",
+  "license": "BSD-4-Clause",
+  "bugs": {
+    "url": "https://github.com/Datakollektivet/Folketingets-Open-Data/issues"
+  },
+  "homepage": "https://github.com/Datakollektivet/Folketingets-Open-Data#readme",
+  "devDependencies": {
+    "electron": "^4.1.0"
+  },
+  "dependencies": {
+    "better-sqlite3": "^5.4.0",
+    "xml2js": "^0.4.19"
+  }
+}
