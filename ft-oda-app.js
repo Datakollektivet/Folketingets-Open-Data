@@ -2,7 +2,7 @@ console.log("running")
 
 var db = require("./lib/sqllite")
 console.log(db)
-var dbpath = "./database/ft.oda.sqlite.db"
+
 db.CreateDatabase().then(db.UpdateDatabase).catch((err)=>{
   console.log("rejected")
   console.log(err)
